@@ -160,6 +160,29 @@
 				margin: 0 5px;
 			}
 		</style>
+		<style>
+		/* Disable timeline dot for certifications only */
+			.timeline-item.certs::before {
+				display: none !important;
+			}
+
+			/* Optional: Clean list layout */
+			.cert-list {
+				list-style: none;
+				padding-left: 0;
+			}
+
+			.cert-list li {
+				margin-bottom: 10px;
+				font-size: 16px;
+				color: #333;
+			}
+
+			/* Remove teal timeline dot for certification section */
+			.timeline-item.certs::before {
+				display: none;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -169,13 +192,13 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Raghav's Data Haven <span style="color: rgba(237, 15, 7, 0.993);">:)</span></h1>
-							<p>Hello and welcome to my portfolio! I'm Raghav, a passionate Data and Systems Analyst skilled in SQL, Unix, Python, Tableau, and Power BI. </br>
-								Here, you'll find a showcase of my work, projects, and insights into the world of data.
+							<p>Hello and welcome to my portfolio! I'm Raghavendran Raghunathan, a passionate Data and Automation Analyst with skills in RPA, Python, AI, Gen AI, SQL, Unix, Tableau, Power BI, and a keen interest in data engineering. </br>
+								Here, you'll find a showcase of my work across intelligent automation, AI-driven solutions, data analytics, and data pipeline development that help drive smarter, scalable business outcomes.
 								<br /></p>
 
-							<p>Feel free to explore my projects and learn more about my journey in data analytics. </br>
+							<p>Feel free to explore my projects and see how I blend automation, AI, and data engineering to transform processes and unlock new possibilities. </br>
 								If you'd like to connect or discuss potential collaborations, please visit my <a href="https://www.linkedin.com/in/raghavendran-raghunathan-b78586132/"><span style="color: rgba(9, 104, 238, 0.782);">LinkedIn profile</span></a>.</p>
-							<p>Thank you for stopping by. Let's unlock the potential of data together!</p>
+							<p>Thank you for stopping by. Let’s innovate, automate, and engineer the future together!</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-angle-double-down scrolly">Continue</a></li>
 						</ul>
@@ -212,14 +235,12 @@
 										
 									</h2>
 									
-									A dedicated and experienced Data Analyst with a strong foundation in Data Analytics and Automation.
-									I hold a Master’s degree in Information Systems and Security, which has enriched my understanding of data management, analysis, and cybersecurity. 
-									With nearly 5 years of professional experience, I specialize in transforming complex datasets into clear, actionable insights. 
-									My expertise lies in using SQL, Python, Tableau, and Power BI to perform detailed data analysis, visualization, and reporting. 
-									I have a proven track record of identifying trends, patterns, and anomalies that help drive strategic business decisions. 
-									Over the past years, I have worked on various projects that involved data cleaning, analysis, and visualization to support business objectives. 
-									 I am committed to continuous learning and professional development, staying updated with the latest trends and technologies in data analysis and automation.
-									This allows me to deliver cutting-edge solutions to my clients. Thank you for visiting my portfolio! </p>
+										I am a dedicated Automation and Data Analyst with nearly 5 years of experience in RPA, data analytics, and data engineering. Holding a Master’s degree in Information Systems and Security, I bring a solid foundation in automation technologies, data management, and cybersecurity.
+										Skilled in RPA tools like UiPath, Blue Prism, and Automation Anywhere, as well as SQL, Python, Tableau, and Power BI, I specialize in building automation solutions, developing data pipelines, and transforming complex datasets into actionable insights.
+
+										I have a proven track record of delivering end-to-end automation projects and supporting data engineering initiatives that enhance business efficiency and decision-making. Committed to continuous learning, I stay updated with the latest advancements in automation, AI, and data technologies to drive innovation.
+
+										Thank you for visiting my portfolio! </p>
 								</header>
 
 								
@@ -230,7 +251,7 @@
 					<div class="timeline">
 						<!-- Education Section -->
 						<div class="timeline-section">
-							<h2>My Education</h2>
+							<h2>My Education </h2>
 							<div class="timeline-item">
 								<h3>Master of Engineering </h3>
 								<h4>Information Systems and Security</h4>
@@ -243,16 +264,34 @@
 								<h4>SRM University | May 2015 - Apr 2019</h4>
 								<p>I hold a BTech in Computer Science and Engineering, where I developed a strong foundation in computing principles, software development, and data analysis. During my studies, I completed various projects and internships with  leading IT consulting firms.This experience enhanced my practical skills and demonstrated my ability to apply theoretical knowledge to real-world problems.</p>
 							</div>
+							<h2>Certifications</h2>
+							<div class="timeline-item certs">
+								<ul class="cert-list">
+									<li><i class="fas fa-check" style="color:green; margin-right: 8px;"></i>CompTIA Security +</li>
+									<li><i class="fas fa-check" style="color:green; margin-right: 8px;"></i>Automation Anywhere Certified Advanced RPA Professional (Automation 360)</li>
+									<li><i class="fas fa-check" style="color:green; margin-right: 8px;"></i>Automation Anywhere Certified Master RPA Professional - Version 11</li>
+									<li><i class="fas fa-check" style="color:green; margin-right: 8px;"></i>Automation Anywhere Certified Advanced RPA Professional (V11.0)</li>
+									<li><i class="fas fa-check" style="color:green; margin-right: 8px;"></i>Control Room Administrator A360</li>
+								</ul>
+							</div>
 							
 						</div>
 
 						<!-- Experience Section -->
 						<div class="timeline-section">
 							<h2>My Experience</h2>
+
+
 							<div class="timeline-item">
-								<h3>L3 Application Support Analyst</h3>
-								<h4>Societe Generale | Sep 2024 - Present</h4>
-								<p>I gained hands-on experience in analyzing large datasets and generating actionable insights to support business strategies. I utilized tools such as Excel, SQL, and Python to perform data cleaning, transformation, migration and Server and application maintanace. </p>
+								<h3>APS Analyst(RPA Analyst)</h3>
+								<h4>BNP Paribas | Mar 2025 - Present</h4>
+								<p>My role as an Application Support Analyst for RPA tools like Blue Prism, alongside various in-house applications, has enhanced my technical troubleshooting skills, process automation knowledge, and collaboration with cross-functional teams to ensure seamless operations and improve business process efficiency.</p>
+							</div>
+
+							<div class="timeline-item">
+								<h3>Application Support Analyst</h3>
+								<h4>Societe Generale | Sep 2024 - Mar 2024</h4>
+								<p>I gained hands-on experience in supporting various Internal applications created by SG and managing automation bots developed using Python and other automation tools. I performed tasks such as monitoring bot performance, troubleshooting issues, and coordinating server and application maintenance to ensure reliable and efficient operations. </p>
 								
 
 								
@@ -260,12 +299,12 @@
 							<div class="timeline-item">
 								<h3>Technical Analyst</h3>
 								<h4>Loc Software | Mar 2024 - Sep 2024</h4>
-								<p>My experience as a Technical Analyst has equipped me with the technical expertise, analytical skills, and business Understandings necessary to deliver impactful BI solutions that enhance decision-making and drive business success.</p>
+								<p>My experience as a Technical Analyst has equipped me with the technical expertise, analytical skills, and business understanding necessary to support data engineering pipelines, maintain data quality, and enable accurate insights that drive effective decision-making and business growth.</p>
 							</div>
 							<div class="timeline-item">
-								<h3>Programmer Analyst</h3>
+								<h3>Programmer Analyst(RPA Developer)</h3>
 								<h4>Cognizant, Chennai India | Jan 2019 - Dec 2021</h4>
-								<p>BI Developer & Analyst, with exposure to automation and RPA tools.Additionally, I collaborated with cross-functional teams to deliver data-driven reports and dashboards, enhancing overall decision-making processes.</p>
+								<p>Skilled RPA Developer proficient in Automation Anywhere, UiPath, and Blue Prism, delivering efficient automation solutions to streamline processes and improve operational efficiency.</p>
 							</div>
 							
 							
@@ -291,7 +330,7 @@
 						</div>
 					</div>
 					<div class="skill-bar">
-						<span>Tableau <span style="float: right;">75%</span></span>
+						<span>UNIX <span style="float: right;">75%</span></span>
 						<div class="bar">
 							<div class="php"></div>
 						</div>
@@ -309,7 +348,7 @@
 						</div>
 					</div>
 					<div class="skill-bar">
-						<span>RPA Tools(UiPath, A360, PowerAutomate) <span style="float: right;">85%</span></span>
+						<span>RPA Tools(UiPath, A360, PowerAutomate, BluePrism) <span style="float: right;">85%</span></span>
 						<div class="bar">
 							<div class="wordpress"></div>
 						</div>
@@ -337,8 +376,8 @@
 						<section class="contact">
 							<div class="contact-item">
 								<h3>Address</h3>
-								<p><Center>1980 Rue Saint-Catherine Est<br />
-								Montreal Qc, H2K 2H8</Center></p>
+								<p><Center>2100 Rue Du Fort<br />
+								Montreal Qc, H3H 2C6</Center></p>
 							</div>
 							<div class="contact-item">
 								<h3>Phone</h3>
